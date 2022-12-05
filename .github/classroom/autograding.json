@@ -1,0 +1,84 @@
+{
+  "tests": [
+    {
+      "name": "Min_1",
+      "setup": "g++ main.cpp lib.cpp -o main",
+      "run": "./main",
+      "input": "a",
+      "output": "A",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Min_2",
+      "setup": "g++ main.cpp lib.cpp -o main",
+      "run": "./main",
+      "input": "g",
+      "output": "G",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Min_3",
+      "setup": "g++ main.cpp lib.cpp -o main",
+      "run": "./main",
+      "input": "z",
+      "output": "Z",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Mai_1",
+      "setup": "g++ main.cpp lib.cpp -o main",
+      "run": "./main",
+      "input": "A",
+      "output": "a",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Mai_2",
+      "setup": "g++ main.cpp lib.cpp -o main",
+      "run": "./main",
+      "input": "S",
+      "output": "s",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Mai_3",
+      "setup": "g++ main.cpp lib.cpp -o main",
+      "run": "./main",
+      "input": "Z",
+      "output": "z",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Simbol_1",
+      "setup": "g++ main.cpp lib.cpp -o main",
+      "run": "./main",
+      "input": "@",
+      "output": "errore",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Simbol_2",
+      "setup": "g++ main.cpp lib.cpp -o main",
+      "run": "./main",
+      "input": "\"",
+      "output": "errore",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 20
+    }
+  ]
+}
